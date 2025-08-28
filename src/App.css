@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+
+.page-wrap {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.text-wrap {
+  margin-bottom: 50px;
+  max-width: 1440px;
+  width: 84%;
+}
+
+.text-wrap h1 {
+  font-size: 38px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.text-wrap p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px 0;
+  text-align: left;
+  width: 50%;
+}
+
+.text-wrap p span {
+  font-weight: 700;
+}
+
+.click {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.click h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.click span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.text-wrap button {
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  padding: 7px 30px;
+  outline: none;
+
+}
+
+.text-wrap button:hover{
+  background-color: #000;
+  color: #fff;
+}
